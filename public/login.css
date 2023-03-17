@@ -1,0 +1,54 @@
+*{
+    background-color:black;
+    color: white;
+}.container{
+    display: flex;
+    background-image: linear-gradient(to bottom right , rgb(0, 0, 0) , rgb(255, 0, 0));
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 5% 5%;
+    border: 2px solid red;
+    font-size: 25px;
+    margin:5% auto  ;
+    border-radius: 15px;
+}.data{
+    text-align: center;
+    margin: 5px 0;
+    background: none;
+}
+input{
+    border: 2px solid white;
+   height: 3rem;
+   border-radius: 5px ;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+}button{
+    
+        background-color: white;
+        color: red;
+        font-size: larger;
+        width: 30%;
+        height: 39px;
+        border-radius: 7px;
+        border: 2px solid red;
+        cursor: pointer;
+        margin: 10px auto;
+}
+#btn{
+    display: flex;
+    background: none;
+}
+@media screen and (max-width : 700px) {
+    .container{
+        width: 80%;
+    }
+}
+@media screen and (max-width : 400px) {
+    .container{
+       font-size: 20px;
+    }
+    button{
+        font-size:15px ;
+    }
+}

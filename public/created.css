@@ -1,0 +1,45 @@
+.created{
+    border: 3px solid white;
+    margin: 30px 20px auto ;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}.created div{
+    margin: 0 5%;
+}.right{
+    background-color: red;
+    width: in;
+    text-align: center;
+    border-radius:8px;
+    
+    padding: 5px 5px;
+}.section{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 ;
+    font-size: 25px;
+}.section div{
+    width: 40%;
+    height: 40px;
+    margin: 0  10%;
+    text-align: center;
+}.border{
+    border-bottom:5px solid red ;
+    text-decoration: none;
+}.section a{
+    text-decoration: none;
+}.select{
+    background-color: white;
+    border-radius: 9px;
+    color: red;
+}.display{
+    display: none;
+}
+@media screen and (max-width : 755px) {
+    .right{
+        font-size: 20px;
+    }
+}

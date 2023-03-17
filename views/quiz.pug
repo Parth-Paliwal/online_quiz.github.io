@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+    <title>Quiz_Website</title>
+    style
+         include ../public/quiz.css
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="nav">
+            <ul class="list">
+                <a  href="/">
+                    <img src="./logo2.png" alt="" srcset="">
+                    
+                </a>
+                <li><a href="">HOME</a></li>
+                <li><a href="">EVENTS</a></li>
+                <li><a href="/create">CREATE</a></li>
+                <li><a href="/analytics">ANALYTICS</a></li>
+                <li id="log" class="login"><a href="/login">LOG IN</a></li>
+            </ul>
+        </div>
+           <form action="/give" method="post">
+        <div class="code">
+            <div class="code_inside">
+              |  Enter Code <input type="text" id="search" name="give" class="quiz_code"></div>
+        </div>
+        </form>
+        <div class="for_u">
+            QUIZES
+        </div>
+        <div class="card">
+            <div class="card1">
+                <img src="./card1.png" alt="" srcset="">
+             
+                <div class="text">JAVASCRIPT</div>
+            </div>
+            <div class="card1">
+                <img src="./card2.jpg" alt="" srcset="">
+                <div class="text">HTML</div>
+            </div>
+            <div class="card1">
+                <img src="./card3.png" alt="" srcset="">
+                <div class="text">CSS</div>
+            </div>
+            <div class="card1">
+                <img src="./card4.jpg" alt="" srcset="">
+                <div class="text">NODE.JS</div>
+            </div>
+        </div>         
+    </div>
+    
+    <script src="./quiz.js"></script> 
+
+</body>
+
+</html>

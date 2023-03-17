@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Document</title>
+    style
+         include ../public/quiz.css
+         include ../public/create.css
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul class="list">
+                <a href="/">
+                    <img src="./logo2.png" alt="" srcset="">
+
+                </a>
+                <li><a href="/">HOME</a></li>
+                <li><a href="">EVENTS</a></li>
+                <li><a href="/create" class="creat">CREATE</a></li>
+                <li><a href="/analytics">ANALYTICS</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="border front"><a href="/create">New</a></div>
+            <div id="created" class="front"><a href="/created">Created</a></div>
+        </div>
+        <form action="/create" method="post">
+            <div class="heading">
+                <input class="title-input" name="heading" type="text"  placeholder="Heading">
+                <input class="username" id="user"  name="user" type="text">
+                <input type="number" class="options-input number" name="que" id="number" placeholder="total Questions">
+
+
+            </div>
+            <div id="container" class="questions heading">
+
+                <input class="input-questions" type="text" name="question" placeholder="QUESTIONS">
+                <div class="new">
+                    <div class="options">
+                        <input class="options-input" name="option1" type="text" placeholder="1.">
+                        <input class="options-input" name="option2" type="text" placeholder="2.">
+                        <input class="options-input" name="option3" type="text" placeholder="3.">
+                        <input class="options-input" name="option4" type="text" placeholder="4.">
+                    </div>
+                    <input class=" answer" type="number" name="answer" placeholder="correct-option">
+                </div>
+
+            </div>
+            <div class="submit">
+              <button id="btn" class="btn">Create</button>
+            </div>
+        </form>
+    </div>
+
+    <script  src="./create.js">
+    </script>
+    
+</body>
+
+</html>

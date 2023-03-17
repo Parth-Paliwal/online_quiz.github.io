@@ -1,0 +1,29 @@
+.head{
+    width: 65%;
+    height: 250px;
+    display: flex;
+    margin: 50px auto;
+    background: radial-gradient(circle at top left , #000000 , #434343);
+    border: 3px solid red;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+    flex-direction: column;
+}.new_code{
+    margin-top: 20px;
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width : 765px) {
+    .head{
+        font-size: 25px;
+        margin: 50px 15px;
+        width: inherit;
+        height: 150px;
+    }
+}

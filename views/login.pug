@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    style
+         include ../public/login.css
+         include ../public/create.css
+         include ../public/quiz.css
+ </head>
+ <body>
+ <div class="nav">
+            <ul class="list">
+                <a href="/">
+                    <img src="./logo2.png" alt="" srcset="">
+
+                </a>
+                <li><a href="/">HOME</a></li>
+                <li><a href="">EVENTS</a></li>
+                <li><a href="/create">CREATE</a></li>
+                <li><a href="/analytics">ANALYTICS</a></li>
+                
+            </ul>
+</div>
+        <form action="/login" method="post">
+          <div class="container">
+             <div class="user data">User Name</div>
+             <input type="text" id="name" class="data input-name" name="user">
+
+             <div class="email data">E-mail</div>
+             <input type="email" name="email" class="data" name="email">
+
+             <div class="password data">Password</div>
+             <input type="text" id="pass" name="password" class="data" name="password">
+
+             <div id="btn">
+                 <button id="log" type="submit">Sign in</button>
+                 <button id="log" type="submit">Login</button>
+             </div>
+          </div>
+        </form>  
+</body>
+</html>
